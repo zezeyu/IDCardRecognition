@@ -8,13 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		E181BA5320D29BCF00C6F6CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E181BA5220D29BCF00C6F6CC /* AppDelegate.m */; };
-		E181BA5620D29BCF00C6F6CC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E181BA5520D29BCF00C6F6CC /* ViewController.m */; };
 		E181BA5920D29BCF00C6F6CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E181BA5720D29BCF00C6F6CC /* Main.storyboard */; };
 		E181BA5B20D29BCF00C6F6CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E181BA5A20D29BCF00C6F6CC /* Assets.xcassets */; };
 		E181BA5E20D29BCF00C6F6CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E181BA5C20D29BCF00C6F6CC /* LaunchScreen.storyboard */; };
 		E181BA6120D29BCF00C6F6CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E181BA6020D29BCF00C6F6CC /* main.m */; };
 		E181BA6B20D29BD000C6F6CC /* IDCardRecognitionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E181BA6A20D29BD000C6F6CC /* IDCardRecognitionTests.m */; };
 		E181BA7620D29BD000C6F6CC /* IDCardRecognitionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E181BA7520D29BD000C6F6CC /* IDCardRecognitionUITests.m */; };
+		E181BA9520D29C4D00C6F6CC /* IDInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = E181BA8520D29C4C00C6F6CC /* IDInfo.m */; };
+		E181BA9620D29C4D00C6F6CC /* CADAlertControllerTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E181BA8820D29C4D00C6F6CC /* CADAlertControllerTool.m */; };
+		E181BA9720D29C4D00C6F6CC /* RectManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E181BA8A20D29C4D00C6F6CC /* RectManager.m */; };
+		E181BA9820D29C4D00C6F6CC /* CADTailView.m in Sources */ = {isa = PBXBuildFile; fileRef = E181BA8D20D29C4D00C6F6CC /* CADTailView.m */; };
+		E181BA9920D29C4D00C6F6CC /* LHSIDCardScaningView.m in Sources */ = {isa = PBXBuildFile; fileRef = E181BA8F20D29C4D00C6F6CC /* LHSIDCardScaningView.m */; };
+		E181BA9A20D29C4D00C6F6CC /* UIAlertController+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = E181BA9220D29C4D00C6F6CC /* UIAlertController+Extend.m */; };
+		E181BA9B20D29C4D00C6F6CC /* UIImage+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = E181BA9420D29C4D00C6F6CC /* UIImage+Extend.m */; };
+		E181BAAA20D29D0B00C6F6CC /* AVCaptureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E181BAA320D29D0B00C6F6CC /* AVCaptureViewController.m */; };
+		E181BAAB20D29D0B00C6F6CC /* IDAuthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E181BAA520D29D0B00C6F6CC /* IDAuthViewController.m */; };
+		E181BAAC20D29D0B00C6F6CC /* IDAuthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E181BAA620D29D0B00C6F6CC /* IDAuthViewController.xib */; };
+		E181BAAD20D29D0B00C6F6CC /* IDInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E181BAA820D29D0B00C6F6CC /* IDInfoViewController.m */; };
+		E181BAAE20D29D0B00C6F6CC /* IDInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E181BAA920D29D0B00C6F6CC /* IDInfoViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +49,6 @@
 		E181BA4E20D29BCF00C6F6CC /* IDCardRecognition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IDCardRecognition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E181BA5120D29BCF00C6F6CC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E181BA5220D29BCF00C6F6CC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E181BA5420D29BCF00C6F6CC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E181BA5520D29BCF00C6F6CC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E181BA5820D29BCF00C6F6CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E181BA5A20D29BCF00C6F6CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E181BA5D20D29BCF00C6F6CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +60,28 @@
 		E181BA7120D29BD000C6F6CC /* IDCardRecognitionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IDCardRecognitionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E181BA7520D29BD000C6F6CC /* IDCardRecognitionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDCardRecognitionUITests.m; sourceTree = "<group>"; };
 		E181BA7720D29BD000C6F6CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E181BA8420D29C4C00C6F6CC /* IDInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDInfo.h; sourceTree = "<group>"; };
+		E181BA8520D29C4C00C6F6CC /* IDInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDInfo.m; sourceTree = "<group>"; };
+		E181BA8720D29C4D00C6F6CC /* CADAlertControllerTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CADAlertControllerTool.h; sourceTree = "<group>"; };
+		E181BA8820D29C4D00C6F6CC /* CADAlertControllerTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CADAlertControllerTool.m; sourceTree = "<group>"; };
+		E181BA8920D29C4D00C6F6CC /* RectManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RectManager.h; sourceTree = "<group>"; };
+		E181BA8A20D29C4D00C6F6CC /* RectManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RectManager.m; sourceTree = "<group>"; };
+		E181BA8C20D29C4D00C6F6CC /* CADTailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CADTailView.h; sourceTree = "<group>"; };
+		E181BA8D20D29C4D00C6F6CC /* CADTailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CADTailView.m; sourceTree = "<group>"; };
+		E181BA8E20D29C4D00C6F6CC /* LHSIDCardScaningView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHSIDCardScaningView.h; sourceTree = "<group>"; };
+		E181BA8F20D29C4D00C6F6CC /* LHSIDCardScaningView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHSIDCardScaningView.m; sourceTree = "<group>"; };
+		E181BA9120D29C4D00C6F6CC /* UIAlertController+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+Extend.h"; sourceTree = "<group>"; };
+		E181BA9220D29C4D00C6F6CC /* UIAlertController+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+Extend.m"; sourceTree = "<group>"; };
+		E181BA9320D29C4D00C6F6CC /* UIImage+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extend.h"; sourceTree = "<group>"; };
+		E181BA9420D29C4D00C6F6CC /* UIImage+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extend.m"; sourceTree = "<group>"; };
+		E181BAA220D29D0B00C6F6CC /* AVCaptureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVCaptureViewController.h; sourceTree = "<group>"; };
+		E181BAA320D29D0B00C6F6CC /* AVCaptureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVCaptureViewController.m; sourceTree = "<group>"; };
+		E181BAA420D29D0B00C6F6CC /* IDAuthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDAuthViewController.h; sourceTree = "<group>"; };
+		E181BAA520D29D0B00C6F6CC /* IDAuthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDAuthViewController.m; sourceTree = "<group>"; };
+		E181BAA620D29D0B00C6F6CC /* IDAuthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IDAuthViewController.xib; sourceTree = "<group>"; };
+		E181BAA720D29D0B00C6F6CC /* IDInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDInfoViewController.h; sourceTree = "<group>"; };
+		E181BAA820D29D0B00C6F6CC /* IDInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDInfoViewController.m; sourceTree = "<group>"; };
+		E181BAA920D29D0B00C6F6CC /* IDInfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IDInfoViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +132,13 @@
 		E181BA5020D29BCF00C6F6CC /* IDCardRecognition */ = {
 			isa = PBXGroup;
 			children = (
+				E181BA9020D29C4D00C6F6CC /* Category */,
+				E181BA8320D29C4C00C6F6CC /* Model */,
+				E181BA8620D29C4D00C6F6CC /* Tool */,
+				E181BA8B20D29C4D00C6F6CC /* View */,
+				E181BAA120D29D0B00C6F6CC /* Controller */,
 				E181BA5120D29BCF00C6F6CC /* AppDelegate.h */,
 				E181BA5220D29BCF00C6F6CC /* AppDelegate.m */,
-				E181BA5420D29BCF00C6F6CC /* ViewController.h */,
-				E181BA5520D29BCF00C6F6CC /* ViewController.m */,
 				E181BA5720D29BCF00C6F6CC /* Main.storyboard */,
 				E181BA5A20D29BCF00C6F6CC /* Assets.xcassets */,
 				E181BA5C20D29BCF00C6F6CC /* LaunchScreen.storyboard */,
@@ -130,6 +164,63 @@
 				E181BA7720D29BD000C6F6CC /* Info.plist */,
 			);
 			path = IDCardRecognitionUITests;
+			sourceTree = "<group>";
+		};
+		E181BA8320D29C4C00C6F6CC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E181BA8420D29C4C00C6F6CC /* IDInfo.h */,
+				E181BA8520D29C4C00C6F6CC /* IDInfo.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E181BA8620D29C4D00C6F6CC /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				E181BA8720D29C4D00C6F6CC /* CADAlertControllerTool.h */,
+				E181BA8820D29C4D00C6F6CC /* CADAlertControllerTool.m */,
+				E181BA8920D29C4D00C6F6CC /* RectManager.h */,
+				E181BA8A20D29C4D00C6F6CC /* RectManager.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		E181BA8B20D29C4D00C6F6CC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E181BA8C20D29C4D00C6F6CC /* CADTailView.h */,
+				E181BA8D20D29C4D00C6F6CC /* CADTailView.m */,
+				E181BA8E20D29C4D00C6F6CC /* LHSIDCardScaningView.h */,
+				E181BA8F20D29C4D00C6F6CC /* LHSIDCardScaningView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E181BA9020D29C4D00C6F6CC /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				E181BA9120D29C4D00C6F6CC /* UIAlertController+Extend.h */,
+				E181BA9220D29C4D00C6F6CC /* UIAlertController+Extend.m */,
+				E181BA9320D29C4D00C6F6CC /* UIImage+Extend.h */,
+				E181BA9420D29C4D00C6F6CC /* UIImage+Extend.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		E181BAA120D29D0B00C6F6CC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E181BAA220D29D0B00C6F6CC /* AVCaptureViewController.h */,
+				E181BAA320D29D0B00C6F6CC /* AVCaptureViewController.m */,
+				E181BAA420D29D0B00C6F6CC /* IDAuthViewController.h */,
+				E181BAA520D29D0B00C6F6CC /* IDAuthViewController.m */,
+				E181BAA620D29D0B00C6F6CC /* IDAuthViewController.xib */,
+				E181BAA720D29D0B00C6F6CC /* IDInfoViewController.h */,
+				E181BAA820D29D0B00C6F6CC /* IDInfoViewController.m */,
+				E181BAA920D29D0B00C6F6CC /* IDInfoViewController.xib */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,9 +329,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E181BAAE20D29D0B00C6F6CC /* IDInfoViewController.xib in Resources */,
 				E181BA5E20D29BCF00C6F6CC /* LaunchScreen.storyboard in Resources */,
 				E181BA5B20D29BCF00C6F6CC /* Assets.xcassets in Resources */,
 				E181BA5920D29BCF00C6F6CC /* Main.storyboard in Resources */,
+				E181BAAC20D29D0B00C6F6CC /* IDAuthViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,9 +358,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E181BA5620D29BCF00C6F6CC /* ViewController.m in Sources */,
+				E181BA9520D29C4D00C6F6CC /* IDInfo.m in Sources */,
 				E181BA6120D29BCF00C6F6CC /* main.m in Sources */,
+				E181BA9620D29C4D00C6F6CC /* CADAlertControllerTool.m in Sources */,
 				E181BA5320D29BCF00C6F6CC /* AppDelegate.m in Sources */,
+				E181BA9920D29C4D00C6F6CC /* LHSIDCardScaningView.m in Sources */,
+				E181BAAD20D29D0B00C6F6CC /* IDInfoViewController.m in Sources */,
+				E181BA9720D29C4D00C6F6CC /* RectManager.m in Sources */,
+				E181BAAA20D29D0B00C6F6CC /* AVCaptureViewController.m in Sources */,
+				E181BA9B20D29C4D00C6F6CC /* UIImage+Extend.m in Sources */,
+				E181BAAB20D29D0B00C6F6CC /* IDAuthViewController.m in Sources */,
+				E181BA9A20D29C4D00C6F6CC /* UIAlertController+Extend.m in Sources */,
+				E181BA9820D29C4D00C6F6CC /* CADTailView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +535,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6B3539P8YN;
 				INFOPLIST_FILE = IDCardRecognition/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cheanda.carmonitorv1.IDCardRecognition;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -447,6 +550,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6B3539P8YN;
 				INFOPLIST_FILE = IDCardRecognition/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cheanda.carmonitorv1.IDCardRecognition;
 				PRODUCT_NAME = "$(TARGET_NAME)";

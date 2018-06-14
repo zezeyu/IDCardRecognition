@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  IDAuthViewController.h
 //  IDCardRecognition
 //
 //  Created by 何泽的mac on 2018/6/14.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface IDAuthViewController : UIViewController
 
 @end
-
