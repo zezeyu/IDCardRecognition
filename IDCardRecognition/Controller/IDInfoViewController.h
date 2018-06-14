@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @class IDInfo;
-
+   
 @interface IDInfoViewController : UIViewController
 
 // 身份证信息

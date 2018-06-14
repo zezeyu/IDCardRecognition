@@ -11,6 +11,6 @@
 @interface AVCaptureViewController : UIViewController
 
 @property(nonatomic,assign)BOOL iSProsAndCons;
-
+      
 @end
 

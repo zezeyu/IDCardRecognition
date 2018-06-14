@@ -107,7 +107,7 @@
                 <constraint firstItem="WYV-yo-1Pj" firstAttribute="height" secondItem="L1h-wl-cfy" secondAttribute="height" id="v8Z-w7-4OE"/>
                 <constraint firstItem="L1h-wl-cfy" firstAttribute="leading" secondItem="mfh-nA-VG3" secondAttribute="leading" id="vhc-9F-gkE"/>
             </constraints>
-            <point key="canvasLocation" x="34.5" y="54.5"/>
+            <point key="canvasLocation" x="105" y="-50"/>
         </view>
     </objects>
 </document>

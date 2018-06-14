@@ -12,7 +12,7 @@
 #import "AVCaptureViewController.h"
 
 @interface IDInfoViewController ()
-
+   
 @property (strong, nonatomic) IBOutlet UIImageView *IDImageView;
 @property (strong, nonatomic) IBOutlet UILabel *IDNumLabel;
 

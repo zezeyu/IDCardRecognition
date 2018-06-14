@@ -19,7 +19,7 @@
 #import "CADTailView.h"
 @interface AVCaptureViewController () <AVCaptureVideoDataOutputSampleBufferDelegate, AVCaptureMetadataOutputObjectsDelegate>
 
-// 摄像头设备
+// 摄像头设备fasdfas 
 @property (nonatomic,strong) AVCaptureDevice *device;
 
 // AVCaptureSession对象来执行输入设备和输出设备之间的数据传递

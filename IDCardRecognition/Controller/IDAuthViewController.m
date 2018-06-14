@@ -8,7 +8,7 @@
 
 #import "IDAuthViewController.h"
 #import "AVCaptureViewController.h"
-
+   
 @interface IDAuthViewController () <UINavigationControllerDelegate>
 
 @end
